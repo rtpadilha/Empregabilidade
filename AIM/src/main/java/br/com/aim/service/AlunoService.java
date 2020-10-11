@@ -16,7 +16,7 @@ public class AlunoService {
 	@Autowired
 	AlunoRepository repoAluno;
 	
-public List<Aluno> buscarTodosAlunos(){
+public List<Aluno> buscarTodosCurriculos(){
 	return repoAluno.findAll();
 }	
 public Aluno salvar(Aluno aluno) {

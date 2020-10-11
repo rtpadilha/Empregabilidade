@@ -19,7 +19,7 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		
-		Aluno aluno1 = new Aluno();
+	/*	Aluno aluno1 = new Aluno();
 		aluno1.setNome("Renato");
 		alunoService.salvar(aluno1);
 		
@@ -31,12 +31,12 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 		aluno3.setNome("Caio");
 		alunoService.salvar(aluno3);
 		
-		List<Aluno> listaAlunos = alunoService.buscarTodosAlunos();
+		List<Aluno> listaAlunos = alunoService.buscarTodosCurriculos();
 		
 		for(Aluno aluno:listaAlunos) {
 			System.out.println(aluno.getNome());
 		}
-		
+		*/
 		
 		
 	}
